@@ -30,5 +30,27 @@ border-radius: 10px;
     padding: 40px;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
+    font-size: 40px;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow:  0 0 20px rgba(0, 139, 253, 0.25);
+}
+
+.buttons{
+    width: 80%;
+    margin: 60px auto 0 auto;
+    justify-content: space-between;
+}
+
+.buttons button{
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #141313;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
 }
