@@ -10,7 +10,15 @@ document.getElementById('startTimer').addEventListener('click', () => {
 //Pause button
 document.getElementById('pauseTimer').addEventListener('click', () => {
     int = clearInterval(int);
-})
+});
+
+document.getElementById('resetTimer').addEventListener('click', () => {
+    clearInterval(int);
+    [milliseconds, seconds, minutes, hours] = [0,0,0,0];
+    timerRef.innerHTML =  '00 : 00 : 00 : 000';
+
+});
+
 
 function displayTimer(){
     milliseconds+=10;
