@@ -3,6 +3,10 @@
 Stopwatch 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+Deployed app: https://gines18.github.io/Stopwatch/
+
+<img src="https://github.com/gines18/Stopwatch/blob/master/img/Screenshot%202023-04-28%20at%2022.10.52.png?raw=true">
+
 ## Table of content:
 * [Project title](#Project-title)
 * [License](#License)
